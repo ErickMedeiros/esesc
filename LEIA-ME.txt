@@ -1,0 +1,4 @@
+Projeto foi desenvolvido na IDE NetBeans 8.0.2. Xampp 5.538 V11 para phpMydmin e Apache , utilizando de ferramentas 
+como firebug, MySQL Workbench 6.3 CE para auxílio no desenvolvimento do projeto.
+
+Alexandre Silva
