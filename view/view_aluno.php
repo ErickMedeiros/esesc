@@ -1,4 +1,5 @@
 <?php
+//Testes
 require '../persistence/dao_aluno.php';
 $daoAluno = new DAOAluno();
 $listaAluno = $daoAluno->listarAluno();
@@ -56,7 +57,6 @@ $listaAluno = $daoAluno->listarAluno();
                     <div class="form-group">
                         <input type="text" class="form-control" id="carteira" name="carteira" placeholder="Carteira Sesc">
                     </div>
-
                     <div class="form-group">
                         <input type="text" class="form-control" id="nome_aluno" name="nome_aluno" placeholder="Nome do Aluno">
                     </div>
