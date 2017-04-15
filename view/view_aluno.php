@@ -115,6 +115,15 @@ $listaAluno = $daoAluno->listarAluno();
                                 <td class="col-md-1"><?php echo $objetoAluno->getRg_aluno(); ?></td>
 
                                 <td class="col-md-1">
+                                    <button type="submit" class="btn btn-primary">
+                        <span class="glyphicon glyphicon-thumbs-up"></span>
+                        Informações
+                    </button>
+                            </td>
+                            
+                            
+                                
+                                <td class="col-md-1">
                                     <a class="btn btn-danger" href="../controller/excluir_aluno.php?codigo=<?= $objetoAluno->getId_aluno(); ?>" role="button">Excluir</a>
                                 </td>
                             </tr>
